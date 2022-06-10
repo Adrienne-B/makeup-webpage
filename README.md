@@ -40,7 +40,11 @@ the search bar and submit.
 Visual Studio Code and Angular
 
 ### What I learn:
-I learned how can can create a user experience without necessarily using javascript.
+To push an angular project type git init, git add -A, git status etc
+THEN
+npm i angular-cli-ghpages --save-dev
+ng build --prod --base-href "https://GitHubUserName.github.io/GitHubfolderName/"
+npx angular-cli-ghpages --dir=dist/Project-name
 
 #### Challenges to improve on:
 1. Angular(Still a beginner)
@@ -52,6 +56,8 @@ I learned how can can create a user experience without necessarily using javascr
 1. Hit CTRL+A which can highlight the a large portion of code (if I want to delete).
 2. How to change a word that is used through out the page at once without manually changing which takes up more time
 3. Go to Edit and hit replace and you can change a word that is in multiple locations on a file and change it quickly
+4. CTRL+SHIFT+D helps to find a specific word and select that word at a time(not all at once)
+5. CTRL+F and/or CTRL+SHIFT+F selects the specific word you are looking for in the entire project.
 
 
 #### Weakness so far:
