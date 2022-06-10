@@ -1,0 +1,20 @@
+<h2>Makeup Options</h2>
+<ul class="makeup">
+    <li *ngFor="let _makeup of makeup" (click)="onSelect(_makeup)">
+        <span class="badge">{{_makeup.id}}</span>
+        {{_makeup.brand}} | 
+        <i>{{_makeup.item}}</i>
+    </li>
+</ul>
+
+<div *ngIf="selectedMakeup">
+
+    <h2>{{selectedMakeup.brand}} Details</h2>
+    <div><span>id: </span>{{selectedMakeup.id}}</div>
+    <div>
+      <label>item:
+        <input [(ngModel)]="selectedMakeup.item" placeholder="item"/>
+      </label>
+    </div>
+  
+</div>
